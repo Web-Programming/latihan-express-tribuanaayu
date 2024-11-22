@@ -1,15 +1,10 @@
-//controller index
 const index = (req, res) => {
-    res.render("index", {title: "Express MVC"});
-}
+ 	res.render('index', { title: 'Express' }); 
+}; 
 
-//controller kontak
+//buat controller untuk halaman kontak
 const kontak = (req, res) => {
-    res.render("kontak",  {title: "Ini Halaman Kontak"});
-}
+	res.render('kontak', { title: 'Express' });
+};
 
-const profil = (req, res) => {
-    res.render("profil",  {title: "Ini Halaman Profil Guysss.... Okeee"});
-}
-
-module.exports = { index, kontak, profil };
+module.exports = { index, kontak }; 
