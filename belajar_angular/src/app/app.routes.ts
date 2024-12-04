@@ -4,12 +4,13 @@ import { DetailsComponent } from './details/details.component';
 export const routes: Routes = [
     { 
         path: '', 
-        component: HomeComponent
+        component: HomeComponent,
+        title: 'Home Page'
     },
-    // membuat route
     {
         path: 'details/:id',
         component: DetailsComponent,
-        title: 'Details Page',
+        title: 'Details Page'
     }
+
 ];
